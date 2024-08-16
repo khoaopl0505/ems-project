@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: usermana
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/datanew
+    username: root
+    password: pass123
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: kuromahiru0505@gmail.com
+    password: tugjaqwmwvagozxz
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
